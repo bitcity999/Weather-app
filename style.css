@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.014);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* :::::::::: General Styling :::::::::: */
+
+.displ-flx {
+    display: flex;
+}
+.just-cnt-cent {
+    display: flex;
+    justify-content: center;
+}
+.just-cnt-spbw {
+    display: flex;
+    justify-content: space-between;
+}
+.just-cnt-spar {
+    display: flex;
+    justify-content: space-around;
+}
+.just-cnt-spev {
+    display: flex;
+    justify-content: space-evenly;
+}
+.just-al-cent {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+button {
+    background-color: transparent;
+    border: none;
+}
+
+/* ::::::::: Main Styling :::::::::: */
+
+.card {
+    width: 80%;
+    max-width: 400px;
+    padding: 30px;
+    color: white;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.822);
+}
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 10px 0;
+}
+.search input {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.068);
+    border: none;
+    width: 85%;
+    height: 35px;
+    border-radius: 20px;
+    padding: 5px 0 5px 15px;
+    font-size: 1.005em;
+    outline: none;
+}
+.search input:active {
+    border: none;
+}
+.search button {
+    cursor: pointer;
+    color: aliceblue;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.068);
+    transition: 0.2s ease-in-out;
+}
+.search button:hover {
+    background-color: rgba(255, 255, 255, 0.151);
+}
+.city-tag {
+    color: rgba(255, 255, 255, 0.493);
+    font-weight: 600;
+}
+#loc-city {
+    color: white;   
+    font-weight: 700;
+}
+.discrp {
+    text-transform: capitalize;
+}
+.card .temperature sup {
+    font-size: 1.5em;
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.781);
+}
+.card .temperature #unit {
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.781);
+}
+.atmosph {
+    margin-top: 15px;
+}
+
+/* ::::::::: :::::::::: */

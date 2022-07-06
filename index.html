@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <!-- Style Sheets -->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="card">
+        <div class="search">
+            <input type="text" class="srch-bar" title="Enter location" placeholder="Enter Location Here">
+            <button type="button" title="search" class="srch-btn"><i class="fas fa-magnifying-glass"></i></button>
+        </div>
+        <h2 class="city-tag">Weather in <span id="loc-city">Kanpur</span></h2>
+        <div class="temperature displ-flx">
+            <h1 id="temp">27</h1>
+            <sup>◦</sup>
+            <h1 id="unit">C</h1>
+        </div>
+        <div class="displ-flx just-al-cent">
+            <img src="" alt="" class="wth-ico">
+            <div class="discrp">cloudy</div>
+        </div>
+        <div class="atmosph">
+            <div class="humidity">
+                <pre><i class="fas fa-droplet"></i> Humidity             : <span id="humid">60%</span></pre>
+            </div>
+            <div class="wind">
+                <pre><i class="fas fa-wind"></i> Wind Speed       : <span id="win-spd">6.2km/h</span></pre>
+            </div>
+            <div class="rain-forc">
+                <pre><i class="fas fa-cloud-rain"></i> Preassure           : <span id="pressure">1020hPa</span></pre>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Scripts -->
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/c758c8bec9.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
